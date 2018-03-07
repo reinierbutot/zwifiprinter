@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-zwifi-printer",
+  "version": "2.0.2",
+  "description": "A Cordova/Phonegap driver for Zebra wifi printers",
+  "cordova": {
+    "id": "cordova-plugin-android-idfa",
+    "platforms": [
+      "android",
+      "browser"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmier/zwifiprinter.git"
+  },
+  "keywords": [
+    "cordova",
+    "zebra",
+    "printer",
+    "wifi",
+    "print",
+    "android",
+    "install",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/jmier/zwifiprinter#readme"
+}

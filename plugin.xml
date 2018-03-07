@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-zebra-label-printer"
+    version="0.0.1">
+
+    <name>Label Printer</name>
+	<description>A Cordova plugin for Zebra label printers</description>
+    <license>Apache</license>
+    <engines>
+        <engine name="cordova" version=">=7.0.0" />
+    </engines>
+
+    <js-module src="www/zwifiprinter.js" name="ZebraWiFiPrinter">
+        <clobbers target="cordova.plugins.zwifiprinter" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+
+      <config-file target="config.xml" parent="/*">
+
+      </config-file>
+	    src/android/com/github/diegorquera/zbtprinter/ZebraBluetoothPrinter.java
+	  <source-file src="src/android/com/github/reinierbutot/zwifiprinter/ZebraWiFiPrinter.java" target-dir="src/android/com/github/reinierbutot/zwifiprinter" />
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="ZebraWiFiPrinter">
+                <param name="android-package" value="com.github.reinierbutot.zwifiprinter.ZebraWiFiPrinter" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/ZSDK_ANDROID_API.jar" target-dir="libs"/>
+    </platform>
+</plugin>
