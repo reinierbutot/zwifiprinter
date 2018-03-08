@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-zwifi-printer",
-  "version": "2.0.2",
-  "description": "A Cordova/Phonegap driver for Zebra wifi printers",
+  "name": "cordova-plugin-label-printer",
+  "version": "0.0.1",
+  "description": "A Cordova driver for Zebra label printers",
   "cordova": {
-    "id": "cordova-plugin-android-idfa",
+    "id": "cordova-plugin-label-printer",
     "platforms": [
       "android",
       "browser"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jmier/zwifiprinter.git"
+    "url": "git+https://github.com/reinierbutot/zwifiprinter.git"
   },
   "keywords": [
     "cordova",
@@ -27,8 +27,13 @@
   "engines": [
     {
       "name": "cordova",
-      "version": ">=3.0.0"
+      "version": ">=7.0.0"
     }
   ],
-  "homepage": "https://github.com/jmier/zwifiprinter#readme"
+  "homepage": "https://github.com/reinierbutot/zwifiprinter#readme",
+  "bugs": {
+    "url": "https://github.com/reinierbutot/zwifiprinter/issues"
+  },
+  "author": "R",
+  "license": "Apache"
 }
