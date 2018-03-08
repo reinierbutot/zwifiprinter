@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-label-printer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Cordova driver for Zebra label printers",
   "cordova": {
     "id": "cordova-plugin-label-printer",
